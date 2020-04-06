@@ -13,6 +13,7 @@
 		F4032C4024361A1D0072EE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4032C3F24361A1D0072EE13 /* Assets.xcassets */; };
 		F4032C4324361A1D0072EE13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4032C4224361A1D0072EE13 /* Preview Assets.xcassets */; };
 		F4032C4624361A1D0072EE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4032C4424361A1D0072EE13 /* LaunchScreen.storyboard */; };
+		F4032C50243B67820072EE13 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032C4F243B67820072EE13 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F4032C4224361A1D0072EE13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4032C4524361A1D0072EE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4032C4724361A1D0072EE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4032C4F243B67820072EE13 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F4032C3824361A1C0072EE13 /* Instafilter */ = {
 			isa = PBXGroup;
 			children = (
+				F4032C4F243B67820072EE13 /* ImagePicker.swift */,
 				F4032C3924361A1C0072EE13 /* AppDelegate.swift */,
 				F4032C3B24361A1C0072EE13 /* SceneDelegate.swift */,
 				F4032C3D24361A1C0072EE13 /* ContentView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4032C3A24361A1C0072EE13 /* AppDelegate.swift in Sources */,
+				F4032C50243B67820072EE13 /* ImagePicker.swift in Sources */,
 				F4032C3C24361A1C0072EE13 /* SceneDelegate.swift in Sources */,
 				F4032C3E24361A1C0072EE13 /* ContentView.swift in Sources */,
 			);
