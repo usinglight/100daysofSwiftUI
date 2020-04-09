@@ -13,6 +13,11 @@
 		F4032C66243CB3650072EE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4032C65243CB3650072EE13 /* Assets.xcassets */; };
 		F4032C69243CB3650072EE13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4032C68243CB3650072EE13 /* Preview Assets.xcassets */; };
 		F4032C6C243CB3650072EE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4032C6A243CB3650072EE13 /* LaunchScreen.storyboard */; };
+		F4032C74243F525A0072EE13 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032C73243F525A0072EE13 /* Result.swift */; };
+		F4032C76243F52840072EE13 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032C75243F52840072EE13 /* MapView.swift */; };
+		F4032C78243F52D80072EE13 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032C77243F52D80072EE13 /* MKPointAnnotation-ObservableObject.swift */; };
+		F4032C7A243F53110072EE13 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032C79243F53110072EE13 /* MKPointAnnotation-Codable.swift */; };
+		F4032C7C243F53710072EE13 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4032C7B243F53710072EE13 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F4032C68243CB3650072EE13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4032C6B243CB3650072EE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4032C6D243CB3650072EE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4032C73243F525A0072EE13 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F4032C75243F52840072EE13 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F4032C77243F52D80072EE13 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		F4032C79243F53110072EE13 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		F4032C7B243F53710072EE13 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				F4032C5F243CB3630072EE13 /* AppDelegate.swift */,
 				F4032C61243CB3630072EE13 /* SceneDelegate.swift */,
 				F4032C63243CB3630072EE13 /* ContentView.swift */,
+				F4032C73243F525A0072EE13 /* Result.swift */,
+				F4032C75243F52840072EE13 /* MapView.swift */,
+				F4032C77243F52D80072EE13 /* MKPointAnnotation-ObservableObject.swift */,
+				F4032C79243F53110072EE13 /* MKPointAnnotation-Codable.swift */,
+				F4032C7B243F53710072EE13 /* EditView.swift */,
 				F4032C65243CB3650072EE13 /* Assets.xcassets */,
 				F4032C6A243CB3650072EE13 /* LaunchScreen.storyboard */,
 				F4032C6D243CB3650072EE13 /* Info.plist */,
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4032C7A243F53110072EE13 /* MKPointAnnotation-Codable.swift in Sources */,
 				F4032C60243CB3630072EE13 /* AppDelegate.swift in Sources */,
+				F4032C7C243F53710072EE13 /* EditView.swift in Sources */,
+				F4032C78243F52D80072EE13 /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				F4032C62243CB3630072EE13 /* SceneDelegate.swift in Sources */,
+				F4032C76243F52840072EE13 /* MapView.swift in Sources */,
+				F4032C74243F525A0072EE13 /* Result.swift in Sources */,
 				F4032C64243CB3630072EE13 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
